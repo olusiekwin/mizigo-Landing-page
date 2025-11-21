@@ -1,0 +1,34 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Local files
+*.local
+.DS_Store
+
+# Editor settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# Databases
+backend/database/
+
+# System files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Locks
+bun.lockb
+package-lock.json
