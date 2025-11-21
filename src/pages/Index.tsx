@@ -84,9 +84,9 @@ const Index = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-2xl shadow-lg card-hover">
+            <div className="bg-white p-8 rounded-md shadow-lg card-hover">
               <div className="mb-6 relative">
-                <div className="w-16 h-16 bg-mizigo-dark rounded-2xl flex items-center justify-center floating">
+                <div className="w-16 h-16 bg-mizigo-dark rounded-md flex items-center justify-center floating">
                   <RadioTower className="w-8 h-8 text-mizigo-primary" />
                 </div>
                 <div className="absolute top-0 right-0">
@@ -110,9 +110,9 @@ const Index = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg card-hover">
+            <div className="bg-white p-8 rounded-md shadow-lg card-hover">
               <div className="mb-6 relative">
-                <div className="w-16 h-16 bg-mizigo-dark rounded-2xl flex items-center justify-center floating">
+                <div className="w-16 h-16 bg-mizigo-dark rounded-md flex items-center justify-center floating">
                   <Bell className="w-8 h-8 text-mizigo-primary" />
                 </div>
               </div>
@@ -133,9 +133,9 @@ const Index = () => {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg card-hover">
+            <div className="bg-white p-8 rounded-md shadow-lg card-hover">
               <div className="mb-6 relative">
-                <div className="w-16 h-16 bg-mizigo-dark rounded-2xl flex items-center justify-center floating">
+                <div className="w-16 h-16 bg-mizigo-dark rounded-md flex items-center justify-center floating">
                   <CreditCard className="w-8 h-8 text-mizigo-primary" />
                 </div>
               </div>
@@ -212,7 +212,7 @@ const Index = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 card-hover">
+            <div className="p-6 rounded-md bg-white/5 backdrop-blur-md border border-white/10 card-hover">
               <UserPlus className="w-12 h-12 text-mizigo-primary mb-4" />
               <h3 className="text-xl font-bold mb-2">Easy Registration</h3>
               <p className="text-white/75 mb-4">Simple onboarding process with quick approval for qualified drivers.</p>
@@ -231,7 +231,7 @@ const Index = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 card-hover">
+            <div className="p-6 rounded-md bg-white/5 backdrop-blur-md border border-white/10 card-hover">
               <Star className="w-12 h-12 text-mizigo-primary mb-4" />
               <h3 className="text-xl font-bold mb-2">Build Your Reputation</h3>
               <p className="text-white/75 mb-4">Earn higher ratings and build trust with customers through quality service.</p>
@@ -250,7 +250,7 @@ const Index = () => {
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 card-hover">
+            <div className="p-6 rounded-md bg-white/5 backdrop-blur-md border border-white/10 card-hover">
               <Truck className="w-12 h-12 text-mizigo-primary mb-4" />
               <h3 className="text-xl font-bold mb-2">Grow Your Business</h3>
               <p className="text-white/75 mb-4">Access more customers and increase your earnings through our platform.</p>
